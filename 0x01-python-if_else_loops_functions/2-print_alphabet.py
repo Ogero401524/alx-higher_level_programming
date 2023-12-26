@@ -5,4 +5,4 @@ end = ord('z')
 
 #loop through and prrint
 for asciiValue in range(start, end + 1):
-    print(chr(asciiValue), end=' ')
+    print('{:c}'.format(asciiValue), end=' ')
