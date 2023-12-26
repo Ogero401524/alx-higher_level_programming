@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#ascii vallllues
+#ascii values
 start = ord('a')
 end = ord('z')
 
