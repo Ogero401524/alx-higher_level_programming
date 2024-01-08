@@ -112,3 +112,9 @@ ANS yes
 15. List add
 
 same above [1, 2, 3, 4]
+
+16. Integer incrementation
+
+What does this script print?
+next numebre
+
