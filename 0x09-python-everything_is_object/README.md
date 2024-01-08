@@ -121,3 +121,7 @@ next numebre
 17. List incrementation
 ABS yes
 
+18. List assignation
+
+yes ans
+
