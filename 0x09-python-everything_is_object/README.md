@@ -125,3 +125,5 @@ ABS yes
 
 yes ans
 
+19. Copy a list object
+
