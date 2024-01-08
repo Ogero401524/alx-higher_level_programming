@@ -109,3 +109,6 @@ l1.append(4)
 print(l2)
 ANS yes
 
+15. List add
+
+same above [1, 2, 3, 4]
