@@ -39,3 +39,8 @@ In the following code, do a and b point to the same object? Answer with Yes or
 No.
 ans Yes
 
+6. Is equal
+
+What do these 3 lines print?
+ans equal true.
+
