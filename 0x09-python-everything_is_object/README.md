@@ -80,4 +80,4 @@ What do these 3 lines print?
 
 ans no same
 
-)
+)11. And with a list, is it the same
