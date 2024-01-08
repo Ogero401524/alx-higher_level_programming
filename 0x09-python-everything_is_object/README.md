@@ -118,3 +118,6 @@ same above [1, 2, 3, 4]
 What does this script print?
 next numebre
 
+17. List incrementation
+ABS yes
+
