@@ -102,3 +102,7 @@ class Rectangle(Base):
         area method of the Rectangle method and its attributes
         """
         return self.width * self.height
+    def display(self):
+        """prints the size of a rectangle"""
+        for _ in range(self.height):
+            print("#" * self.width)
