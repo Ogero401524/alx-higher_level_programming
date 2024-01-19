@@ -3,7 +3,23 @@ from models.base import Base
 
 class Rectangle(Base):
     """
-    The `Rectangle` class represents a rectangle and inherits from the `Base` class.
+    The `Rectangle` class represents a rectangle and inherits from the `Base`
+    class.
+    Attributes:
+    - __width (int): Private instance attribute for the width of the rectangle.
+    - __height (int): Private instance attribute for the height of
+    the rectangle.
+    - __x (int): Private instance attribute for the x-coordinate of the
+    rectangle.
+    - __y (int): Private instance attribute for the y-coordinate of the
+    rectangle.
+    - id (int): Public instance attribute inherited from the `Base` class.
+
+    Methods:
+    - __init__(self, width, height, x=0, y=0, id=None): Class constructor.
+        - Calls the super class (`Base`) constructor with the provided `id`.
+        - Assigns the values of `width`, `height`, `x`, and `y` to the
+    respective private attributes.
 
     Public Getters and Setters:
     - width: Getter and setter for the width attribute.
@@ -21,7 +37,8 @@ class Rectangle(Base):
         - height (int): Height of the rectangle.
         - x (int, optional): x-coordinate of the rectangle (default is 0).
         - y (int, optional): y-coordinate of the rectangle (default is 0).
-        - id (int, optional): Unique identifier. If provided, passed to the super class (`Base`) constructor.
+        - id (int, optional): Unique identifier. If provided, passed to the
+        super class (`Base`) constructor.
         """
         super().__init__(id)
         self.width = width
