@@ -6,12 +6,12 @@
  *
  * Return: 1 if the list has a cycle, 0 if it doesn't
  */
-int check_cycle(listint_t *head)
+int check_cycle(listint_t *list)
 {
-	listint_t *turtle = head;	// 'turtle' moves one node at a time
-	listint_t *hare = head;		// 'hare' moves two nodes at a time
+	listint_t *turtle = list;	// 'turtle' moves one node at a time
+	listint_t *hare = list;		// 'hare' moves two nodes at a time
 
-	if (!head)
+	if (!list)
 		return (0);
 
 	while (turtle && hare && hare->next)
