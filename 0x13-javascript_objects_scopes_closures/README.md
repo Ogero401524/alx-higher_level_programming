@@ -1,1 +1,2 @@
 0x13-javascript_objects_scopes_closures
+0 Rectangle#0 emptyclass with export as to be used outside the module eg creating a container and asign requiers that which exported
