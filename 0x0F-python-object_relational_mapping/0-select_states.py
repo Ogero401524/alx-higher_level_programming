@@ -4,7 +4,7 @@ import MySQLdb
 import sys
 if __name__ == "__main__":
     listdb = MySQLdb.connect(host="localhost",
-                             userr=sys.argv[1],pwsd=sys.argv[2],
+                             user=sys.argv[1],pwsd=sys.argv[2],
                              listdb=sys.argv[3], port=3306)
     pointer = listdb.cursor()
     pointer.execute("SELECT * FROM states")
