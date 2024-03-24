@@ -8,7 +8,7 @@ if __name__ == "__main__":
                              user=sys.argv[1], passwd=sys.argv[2],
                              listdb=sys.argv[3], port=3306)
     pointer = listdb.cursor()
-    pointer.execute("SELECT * FROM states")
+    pointer.execute("SELECT * FROM states ORDER BY states.id")
     r = pointer.fetchall()
     for rw in r:
         print(rw)
