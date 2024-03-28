@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import urllib.requeust
+import urllib.request
 #fuunction
 def fetch(url):
     #get url with urlopen
