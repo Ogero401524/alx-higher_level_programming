@@ -7,7 +7,9 @@ def fetch(url):
         with urllib.request.urlopen(url) as response:
             data = response.read()
             readData = data.decode('utf-8')
-            print(readData)
+            print("\t- type:", type(readData))
+            print("\t- content:",readData)
+            print("\t- utf8 content:", readData)
     except urllib.error.URLError as Er:
         print(f"Error Fetching url:  {Er}")
 #program execution aka throw the ARROW.
