@@ -69,6 +69,7 @@ class Rectangle:
 
 	def perimeter(self):
 		"""Calculates and returns the perimeter of the rectangle
+
 		Returns:
 			If width or height is 0, perimeter is 0
 		"""
@@ -78,8 +79,13 @@ class Rectangle:
 
 	def __str__(self):
 		"""Returns the string representation of the rectangle with '#' characters
+
 		If width or height is 0, returns an empty string
 		"""
 		if self.__width == 0 or self.__height == 0:
 			return ""
-		return ("\n".join("#" * self.__width for _ in range(self.__height)))
+		return "\n".join("#" * self.__width for _ in range(self.__height))
+
+	def __repr__(self):
+		"""Returns a string representation for recreating the object"""
+		return f"Rectangle({self.__width}, {self.__height})"
